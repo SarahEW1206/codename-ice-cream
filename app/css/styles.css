@@ -7737,48 +7737,30 @@ button.close {
 }
 
 #logo {
-  width: 200px;
+  width: 150px;
   float: left;
-  margin: .5rem;
+  margin: .8rem;
+}
+
+@media (min-width: 800px) {
+  #logo {
+    width: 200px;
+  }
 }
 
 nav {
-  background-color: #3b1a5e !important;
+  background-color: #21095f !important;
+}
+
+.navbar-fixed-top {
+  padding: 0px;
+  margin: 0px;
+  border: none;
 }
 
 #visibleNav {
-  margin-left: 10rem;
-  margin-right: 1rem;
-}
-
-#visibleNav #navUl {
-  list-style: none;
   float: right;
-  margin-top: 2.5rem;
-}
-
-#visibleNav #navUl li {
-  display: inline;
-  padding-left: 1.5rem;
-  padding-right: 1rem;
-  padding-top: 50px;
-  padding-bottom: 38px;
-  text-decoration: none;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  border-left: 1px solid white;
-  font-size: 12px;
-  font-weight: 100;
-  letter-spacing: .8px;
-}
-
-#visibleNav #navUl a {
-  color: white;
-  text-decoration: none;
-}
-
-#visibleNav #navUl a:hover {
-  padding: .25rem 0;
+  height: 79.22px;
 }
 
 @media (max-width: 799px) {
@@ -7787,8 +7769,36 @@ nav {
   }
 }
 
+.navDivider {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 122px;
+  border-left: 1px solid white;
+  height: 100%;
+  color: white;
+}
+
+.navDivider:hover {
+  background-color: darkgray;
+}
+
+.navDivider:hover .navText {
+  color: yellow;
+}
+
+.navText {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 200;
+  width: 100%;
+}
+
 .navbar-toggler {
-  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-right: 1.5rem;
   float: right;
 }
 
@@ -7861,13 +7871,31 @@ body {
 
 .portrait-crop {
   display: inline-block;
-  height: 300px;
+  margin-top: 30px;
   width: 100%;
   overflow: hidden;
 }
 
 .portrait-crop img {
   width: 100%;
+}
+
+#homeMain {
+  margin-top: -5px;
+  float: left;
+  background-color: white;
+  height: 100vh;
+  width: 70%;
+}
+
+.sidebarContent {
+  margin-top: -5px;
+  margin-left: 0px;
+  float: left;
+  background-color: white;
+  width: 25%;
+  height: 100vh;
+  box-shadow: -5px 0px 10px grey;
 }
 
 /*# sourceMappingURL=styles.css.map */
