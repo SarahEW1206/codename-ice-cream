@@ -1,7 +1,7 @@
 #logo {
     width: 150px;
     float: left;
-    margin: .8rem;
+    margin: .8rem 0 .8rem 3rem;
 
     @media(min-width: 800px) {
         width: 200px;
@@ -55,13 +55,6 @@ nav {
         font-weight: 200;
         width: 100%;
     }
-
-
-
-
-
-
- 
 
 .navbar-toggler {
     margin-top: 2rem;

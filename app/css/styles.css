@@ -7739,7 +7739,7 @@ button.close {
 #logo {
   width: 150px;
   float: left;
-  margin: .8rem;
+  margin: .8rem 0 .8rem 3rem;
 }
 
 @media (min-width: 800px) {
@@ -7888,6 +7888,13 @@ body {
   width: 70%;
 }
 
+#homeMain p {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 1.25em;
+}
+
 .sidebarContent {
   margin-top: -5px;
   margin-left: 0px;
@@ -7896,6 +7903,12 @@ body {
   width: 25%;
   height: 100vh;
   box-shadow: -5px 0px 10px grey;
+}
+
+#jenPic {
+  width: 100px;
+  margin: 3rem 2rem 0 3rem;
+  float: left;
 }
 
 /*# sourceMappingURL=styles.css.map */
