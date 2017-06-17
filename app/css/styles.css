@@ -7898,6 +7898,13 @@ h4 {
   width: 100%;
 }
 
+@media (min-width: 600px) {
+  #homeMain {
+    height: 100vh;
+    width: 70%;
+  }
+}
+
 #homeMain p {
   padding-top: 3rem;
   padding-left: 2rem;
@@ -7905,6 +7912,14 @@ h4 {
   font-size: .9em;
   text-align: justify;
   margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  #homeMain p {
+    font-size: 1.2em;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 #jenPic {
@@ -7932,6 +7947,10 @@ h4 {
   #buttonJourney {
     width: 49%;
     float: left;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: .5rem;
   }
 }
 
@@ -7948,6 +7967,10 @@ h4 {
   #buttonClient {
     width: 49%;
     float: right;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 0;
+    margin-bottom: .5rem;
   }
 }
 
@@ -7965,6 +7988,10 @@ h4 {
     width: 49%;
     clear: both;
     float: left;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
   }
 }
 
@@ -7981,6 +8008,10 @@ h4 {
   #buttonProcess {
     width: 49%;
     float: right;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
   }
 }
 
@@ -7998,6 +8029,14 @@ h4 {
   background-color: white;
   width: 100%;
   box-shadow: -5px 0px 10px grey;
+}
+
+@media (min-width: 600px) {
+  .sidebarContent {
+    margin-top: -5px;
+    height: 100vh;
+    width: 30%;
+  }
 }
 
 .underQuote {
