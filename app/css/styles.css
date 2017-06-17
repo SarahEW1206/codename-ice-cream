@@ -7739,7 +7739,7 @@ button.close {
 #logo {
   width: 150px;
   float: left;
-  margin: .8rem 0 .8rem 3rem;
+  margin: .8rem 0 .8rem 2rem;
 }
 
 @media (min-width: 800px) {
@@ -7749,7 +7749,7 @@ button.close {
 }
 
 nav {
-  background-color: #21095f !important;
+  background-color: #3b1a5e !important;
 }
 
 .navbar-fixed-top {
@@ -7880,6 +7880,17 @@ body {
   width: 100%;
 }
 
+h4 {
+  position: absolute;
+  z-index: 800;
+  top: 100px;
+  right: 20px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 #homeMain {
   margin-top: -5px;
   float: left;
@@ -7902,6 +7913,12 @@ body {
   float: left;
 }
 
+#buttonWrapper {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
 #buttonJourney {
   width: 100%;
   display: block;
@@ -7911,13 +7928,27 @@ body {
   margin-bottom: 0;
 }
 
+@media (min-width: 600px) {
+  #buttonJourney {
+    width: 49%;
+    float: left;
+  }
+}
+
 #buttonClient {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: .5rem;
+  margin-top: .75rem;
   margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  #buttonClient {
+    width: 49%;
+    float: right;
+  }
 }
 
 #buttonGoal {
@@ -7925,8 +7956,16 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: .5rem;
+  margin-top: .75rem;
   margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  #buttonGoal {
+    width: 49%;
+    clear: both;
+    float: left;
+  }
 }
 
 #buttonProcess {
@@ -7934,14 +7973,21 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: .5rem;
+  margin-top: .75rem;
   margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  #buttonProcess {
+    width: 49%;
+    float: right;
+  }
 }
 
 .quote {
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
   font-size: 14px;
-  margin: 3rem;
+  margin: 2rem 3rem;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -7952,6 +7998,12 @@ body {
   background-color: white;
   width: 100%;
   box-shadow: -5px 0px 10px grey;
+}
+
+.underQuote {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
 }
 
 /*# sourceMappingURL=styles.css.map */
