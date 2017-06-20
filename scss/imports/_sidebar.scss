@@ -1,7 +1,8 @@
 .quote {
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-family: Maitree;
     font-size: 14px;
-    margin: 2rem 3rem;
+    margin: 3rem;
+    text-align: justify;
     color:rgba(0,0,0,.6);
 
 }
@@ -14,9 +15,21 @@ margin-top: 1rem;
   width: 100%;
   box-shadow: -5px 0px 10px grey;
 
+  h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      margin: 3rem;
+  }
+
 @media (min-width: 600px) {
     margin-top: -5px;
     height: 100vh;
+    width: 30%;
+    }
+
+    @media (min-width: 700px) {
+    margin-top: -5px;
+    height: 73vh;
     width: 30%;
     }
 
@@ -26,4 +39,14 @@ margin-top: 1rem;
     display: block;
     margin: 0 auto;
     width: 40%;
+}
+
+#contact{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    background-color: $blue;
+    border-radius: 3px;
+    padding: 6px 10px;
+    font-family: Open Sans, sans-serif;
+    color: $yellow;
 }

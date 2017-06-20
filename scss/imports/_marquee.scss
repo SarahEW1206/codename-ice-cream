@@ -1,24 +1,10 @@
-.portrait-crop{
-
-    display: inline-block;
-    margin-top: 30px;
+.headerImg{
     width: 100%;
-    overflow: hidden;
+    margin-top: 4em;
+    border-bottom: 2px solid $purple;
+
+    // @media(min-width: 600px) {
+    //     margin-top: 1vh;
+    // }
 }
 
-
-
-.portrait-crop img{
-    width: 100%;
-}
-
-h4 {
-    position: absolute;
-    z-index: 800;
-    top: 100px;
-    right: 20px;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    font-size: 2.5rem;
-    text-shadow: 2px 2px 4px #000000;
-}
