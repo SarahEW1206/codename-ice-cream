@@ -8084,7 +8084,7 @@ body {
 .sidebarContent h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  margin: 3rem;
+  margin: 3rem 3rem 2rem 3rem;
 }
 
 @media (min-width: 600px) {
@@ -8112,11 +8112,10 @@ body {
 #contact {
   margin-left: 3rem;
   margin-bottom: 3rem;
-  background-color: #3a7cbf;
   border-radius: 3px;
   padding: 6px 10px;
   font-family: Open Sans, sans-serif;
-  color: #fce800;
+  color: #3a7cbf;
 }
 
 /*# sourceMappingURL=styles.css.map */
