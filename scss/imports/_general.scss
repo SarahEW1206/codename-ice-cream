@@ -1,0 +1,28 @@
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  overflow: auto;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+#footer {
+  height: 40px;
+  width: 100%;
+  background-color: $orange;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, .7);
+
+  p {
+      margin: 1.2rem 2rem 0rem 3rem;
+  }
+}

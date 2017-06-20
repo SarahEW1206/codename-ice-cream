@@ -1,0 +1,54 @@
+
+
+#aboutMain {
+  margin-top: -5px;
+  float: left;
+  background-color: white;
+  width: 100%;
+
+  @media (min-width: 600px) {
+    height: 100%;
+    width: 70%;
+    }
+
+  p {
+    padding-top: 1rem;
+    // padding-left: 2rem;
+    // padding-right: 2rem;
+    width: calc(100% - 50px);
+    display: block;
+  margin: 0 auto;
+    font-size: .9em;
+    text-align: justify;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+
+
+    @media (min-width: 600px) {
+      font-size: 1.1em;
+    }
+
+    }
+
+}
+
+ul.nav.nav-tabs {
+    margin-left: 25px;
+}
+
+h3.aboutSub {
+    margin-left: 25px;
+}
+
+h2#aboutHeading {
+    margin-left: 25px;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+.tab-content > .active {
+    margin: 3rem;
+    display: block;
+}

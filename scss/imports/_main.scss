@@ -82,6 +82,14 @@
 #buttonJourney:hover {
   transform: translate(0px,-2px);
   box-shadow: 0px 0px 2px 2px $orange;
+
+    .cls-1 {
+    fill: $orange;
+  }
+
+  .cls-2 {
+    fill: $purple;
+  }
 }
 
 #buttonClient {
@@ -115,6 +123,15 @@
 #buttonClient:hover {
   transform: translate(0px,-2px);
   box-shadow: 0px 0px 2px 2px $green;
+
+  .cls-1 {
+    fill: $green;
+  }
+
+  .cls-2 {
+    fill: $purple;
+  }
+
 }
 
 #buttonGoal {
@@ -137,9 +154,25 @@
   }
 }
 
+#buttonGoal .cls-1 {
+  fill: $purple;
+}
+
+#buttonGoal .cls-2 {
+  fill: $yellow;
+}
+
 #buttonGoal:hover {
   transform: translate(0px,-2px);
   box-shadow: 0px 0px 2px 2px $yellow;
+
+    .cls-1 {
+    fill: $yellow;
+  }
+
+  .cls-2 {
+    fill: $purple;
+  }
 }
 
 #buttonProcess {
@@ -182,5 +215,7 @@
     fill: $purple;
   }
 }
+
+
 
 
