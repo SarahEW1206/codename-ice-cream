@@ -36,19 +36,27 @@ ul.nav.nav-tabs {
     margin-left: 25px;
 }
 
-h3.aboutSub {
-    margin-left: 25px;
-}
 
 h2#aboutHeading {
+    margin-top: 3rem;
     margin-left: 25px;
+    font-family: Maitree, serif;
+    color: $orange;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: $orange;
+    color: white;
+    font-family: Open Sans, sans-serif;
+}
+
+.nav-tabs .nav-link {
+    font-family: Open Sans, sans-serif;
 }
 
 .tab-content > .active {
+    margin: 3rem 3rem 6rem 3rem;
     display: block;
+    text-align: justify;
 }
 
-.tab-content > .active {
-    margin: 3rem;
-    display: block;
-}
