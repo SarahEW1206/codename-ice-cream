@@ -8305,4 +8305,97 @@ h2#clientHeading {
   color: #27b14b;
 }
 
+#processMain {
+  margin-top: -5px;
+  float: left;
+  background-color: white;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  #processMain {
+    height: 100%;
+    width: 70%;
+  }
+}
+
+#processMain p {
+  padding-top: 1rem;
+  width: calc(100% - 50px);
+  display: block;
+  margin: 0 auto;
+  font-size: .9em;
+  text-align: justify;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 600px) {
+  #processMain p {
+    font-size: 1.1em;
+  }
+}
+
+#processMain .nav-tabs .nav-item .nav-link.active {
+  background-color: #3a7cbf;
+  color: white;
+  font-family: Open Sans, sans-serif;
+}
+
+#processMain .nav-tabs .nav-link {
+  font-family: Open Sans, sans-serif;
+}
+
+#processMain .tab-content > .active {
+  margin: 3rem 3rem 6rem 3rem;
+  display: block;
+  text-align: justify;
+}
+
+ul.nav.nav-tabs {
+  margin-left: 25px;
+}
+
+h2#processHeading {
+  margin-top: 3rem;
+  margin-left: 25px;
+  font-family: Maitree, serif;
+  color: #3a7cbf;
+}
+
+#goalMain {
+  margin-top: -5px;
+  float: left;
+  background-color: white;
+  width: 100%;
+}
+
+#goalMain p {
+  padding-top: 1rem;
+  width: calc(100% - 50px);
+  display: block;
+  margin: 0 auto;
+  font-size: .9em;
+  text-align: justify;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 600px) {
+  #goalMain p {
+    font-size: 1.1em;
+  }
+}
+
+h2#goalHeading {
+  margin-top: 3rem;
+  margin-left: 25px;
+  font-family: Maitree, serif;
+  color: #fce800;
+}
+
+h4#goalPageSignUp {
+  margin-left: 25px;
+}
+
 /*# sourceMappingURL=styles.css.map */
