@@ -1,0 +1,66 @@
+#contactDiv {
+  width: calc(100% - 50px);
+  display: block;
+  margin: 4rem auto;
+  
+}
+
+input {
+	border-radius: 5px;
+	border: 1px solid gray;
+	width: 60%;
+}
+
+textarea {
+	border-radius: 5px;
+	width: 90%;
+	height: 100px;
+		border: 1px solid gray;
+
+}
+
+#emailLink {
+	color: $blue;
+	text-decoration: none;
+}
+
+#emailLink:hover {
+	font-weight: bolder;
+}
+
+#submit {
+	margin-left: calc(100%-25px);
+	width: 80px;
+	background-color: $purple;
+    color: white;
+	border: none;
+	font-family: 'Maitree', serif;
+	padding: 8px;
+}
+
+#submit:hover {
+	transform: translateY(2px);
+}
+
+#contactSocial {
+	margin-left: 5%;
+	padding-bottom: 5%;
+}
+
+#contactSocial svg:hover {
+	transform: translateY(2px);
+}
+
+p.inputText {
+	// margin-left: 5%;
+	// margin-right: 5%;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+   font-size: 100%;
+   letter-spacing: 1.5px;
+}
+
+label {
+font-family: 'Open Sans', sans-serif;
+}
+

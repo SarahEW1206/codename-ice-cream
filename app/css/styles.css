@@ -8239,6 +8239,13 @@ h2#aboutHeading {
 
 .nav-tabs .nav-link {
   font-family: Open Sans, sans-serif;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 600px) {
+  .nav-tabs .nav-link {
+    font-size: 1.5rem;
+  }
 }
 
 .tab-content > .active {
@@ -8286,6 +8293,13 @@ h2#aboutHeading {
 
 #clientMain .nav-tabs .nav-link {
   font-family: Open Sans, sans-serif;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 600px) {
+  #clientMain .nav-tabs .nav-link {
+    font-size: 1.5rem;
+  }
 }
 
 #clientMain .tab-content > .active {
@@ -8344,6 +8358,13 @@ h2#clientHeading {
 
 #processMain .nav-tabs .nav-link {
   font-family: Open Sans, sans-serif;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 600px) {
+  #processMain .nav-tabs .nav-link {
+    font-size: 1.5rem;
+  }
 }
 
 #processMain .tab-content > .active {
@@ -8396,6 +8417,68 @@ h2#goalHeading {
 
 h4#goalPageSignUp {
   margin-left: 25px;
+}
+
+#contactDiv {
+  width: calc(100% - 50px);
+  display: block;
+  margin: 4rem auto;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 60%;
+}
+
+textarea {
+  border-radius: 5px;
+  width: 90%;
+  height: 100px;
+  border: 1px solid gray;
+}
+
+#emailLink {
+  color: #3a7cbf;
+  text-decoration: none;
+}
+
+#emailLink:hover {
+  font-weight: bolder;
+}
+
+#submit {
+  margin-left: calc(100%-25px);
+  width: 80px;
+  background-color: #3b1a5e;
+  color: white;
+  border: none;
+  font-family: 'Maitree', serif;
+  padding: 8px;
+}
+
+#submit:hover {
+  transform: translateY(2px);
+}
+
+#contactSocial {
+  margin-left: 5%;
+  padding-bottom: 5%;
+}
+
+#contactSocial svg:hover {
+  transform: translateY(2px);
+}
+
+p.inputText {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  letter-spacing: 1.5px;
+}
+
+label {
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
