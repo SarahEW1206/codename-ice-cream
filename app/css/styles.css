@@ -8450,7 +8450,7 @@ textarea {
 #submit {
   margin-left: calc(100%-25px);
   width: 80px;
-  background-color: #3b1a5e;
+  background-color: #555555;
   color: white;
   border: none;
   font-family: 'Maitree', serif;
