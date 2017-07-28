@@ -8136,9 +8136,16 @@ body {
 
 .quote {
   font-family: Maitree;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 3rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.quoteBy {
+  font-family: Maitree;
   font-size: 14px;
   margin: 3rem;
-  text-align: justify;
   color: rgba(0, 0, 0, 0.6);
 }
 
