@@ -8002,7 +8002,7 @@ h6 {
   transition: all 0.2s ease;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   #buttonJourney {
     width: 48%;
     float: left;
@@ -8044,7 +8044,7 @@ h6 {
   transition: all 0.2s ease;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   #buttonClient {
     width: 48%;
     float: right;
@@ -8086,7 +8086,7 @@ h6 {
   transition: all 0.2s ease;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   #buttonGoal {
     width: 48%;
     clear: both;
@@ -8129,7 +8129,7 @@ h6 {
   transition: all 0.2s ease;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   #buttonProcess {
     width: 48%;
     float: right;
@@ -8372,11 +8372,12 @@ h2#aboutHeading {
 }
 
 #clientMain p {
-  padding-top: 1rem;
+  padding-top: .8rem;
   width: calc(100% - 50px);
   display: block;
   margin: 0 auto;
-  font-size: .9em;
+  font-size: 1em;
+  line-height: 1.5em;
   text-align: justify;
   margin-bottom: 0;
   font-family: 'Open Sans', sans-serif;
