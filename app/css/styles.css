@@ -7766,7 +7766,7 @@ button.close {
 }
 
 #logo {
-  width: 150px;
+  width: 260px;
   float: left;
   margin: .8rem 0 .8rem 2rem;
 }
@@ -7914,8 +7914,21 @@ body {
   border-bottom: 2px solid #3b1a5e;
 }
 
+.wrapper {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    display: flex;
+  }
+}
+
+.divs {
+  display: table-cell;
+}
+
 #homeMain {
-  margin-top: -5px;
   float: left;
   background-color: white;
   width: 100%;
@@ -7923,6 +7936,7 @@ body {
 
 @media (min-width: 600px) {
   #homeMain {
+    display: table-cell;
     height: 100%;
     width: 70%;
   }
@@ -7930,25 +7944,41 @@ body {
 
 #homeMain p {
   padding-top: 3rem;
-  width: calc(100% - 50px);
+  width: calc(100% - 70px);
   display: block;
   margin: 0 auto;
-  font-size: .9em;
+  font-size: 1em;
+  line-height: 1.4em;
   text-align: justify;
   margin-bottom: 0;
   font-family: 'Open Sans', sans-serif;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1300px) {
   #homeMain p {
     font-size: 1.1em;
   }
 }
 
-#jenPic {
-  width: 70px;
-  margin: 3rem 2rem 0 20px;
+#jenPicDiv {
+  width: 25%;
+  max-width: 180px;
+  margin-left: 35px;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
   float: left;
+}
+
+#jenPic {
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+}
+
+h6 {
+  font-weight: 800;
+  margin-bottom: 0;
 }
 
 .mainDivider {
@@ -7963,6 +7993,7 @@ body {
   width: calc(100% - 50px);
   display: block;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 #buttonJourney {
@@ -8067,7 +8098,7 @@ body {
     margin-top: 1rem;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -8109,7 +8140,7 @@ body {
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
   }
 }
 
@@ -8138,7 +8169,7 @@ body {
   font-family: Maitree;
   font-size: 18px;
   font-weight: 700;
-  margin: 3rem;
+  margin: 4rem 3rem 3rem 3rem;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -8147,6 +8178,14 @@ body {
   font-size: 14px;
   margin: 3rem;
   color: rgba(0, 0, 0, 0.6);
+}
+
+#fourQuestions {
+  font-family: Maitree;
+  font-size: 14px;
+  line-height: 1.2rem;
+  margin: 3rem;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .sidebarContent {
@@ -8167,16 +8206,16 @@ body {
 
 @media (min-width: 600px) {
   .sidebarContent {
-    margin-top: -5px;
-    height: 100vh;
+    float: right;
+    margin-top: 0px;
     width: 30%;
   }
 }
 
 @media (min-width: 700px) {
   .sidebarContent {
-    margin-top: -5px;
-    height: 73vh;
+    margin-top: 0px;
+    float: right;
     width: 30%;
   }
 }
@@ -8190,14 +8229,21 @@ body {
 #contact {
   margin-left: 3rem;
   margin-bottom: 5rem;
-  border-radius: 3px;
-  padding: 6px 10px;
-  font-family: Open Sans, sans-serif;
-  color: #3a7cbf;
+  width: 80px;
+  background-color: #555555;
+  color: white;
+  border: none;
+  font-family: 'Maitree', serif;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+#contact:hover {
+  transform: translateY(2px);
 }
 
 #aboutMain {
-  margin-top: -5px;
   float: left;
   background-color: white;
   width: 100%;
@@ -8262,7 +8308,6 @@ h2#aboutHeading {
 }
 
 #clientMain {
-  margin-top: -5px;
   float: left;
   background-color: white;
   width: 100%;
@@ -8327,7 +8372,6 @@ h2#clientHeading {
 }
 
 #processMain {
-  margin-top: -5px;
   float: left;
   background-color: white;
   width: 100%;

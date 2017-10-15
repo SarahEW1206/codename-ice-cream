@@ -16,6 +16,13 @@
     <meta property="og:image:width" content="" />
     <meta property="og:image:height" content="" />
 
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="manifest" href="icons/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi"
@@ -36,7 +43,9 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-fixed-top">
-        <a href="index.html"><img id="logo" src="images/RJLogo.svg" /></a>
+        <a href="index.html">
+            <img id="logo" src="images/RJLogo.svg" />
+        </a>
         <div id="visibleNav">
             <a class="navItem" href="about.html">
                 <div class="navDivider">
@@ -66,22 +75,31 @@
             <div class="bg-inverse text-muted p-1">
                 <ul>
                     <a href="about.html">
-                        <li><span class="text-muted">About </span></li>
+                        <li>
+                            <span class="text-muted">About </span>
+                        </li>
                     </a>
                     <a href="clients.html">
-                        <li><span class="text-muted">Our Clients </span></li>
+                        <li>
+                            <span class="text-muted">Our Clients </span>
+                        </li>
                     </a>
                     <a href="process.html">
-                        <li><span class="text-muted">The Process </span></li>
+                        <li>
+                            <span class="text-muted">The Process </span>
+                        </li>
                     </a>
                     <a href="contact.html">
-                        <li><span class="text-muted">Contact Us</span></li>
+                        <li>
+                            <span class="text-muted">Contact Us</span>
+                        </li>
                     </a>
 
                 </ul>
             </div>
         </div>
     </nav>
+
     </div>
 
 
@@ -92,14 +110,46 @@
     <div class="wrapper">
 
         <div id="homeMain">
-            <img id="jenPic" src="/app/images/IMG_8094.JPG" />
-            <p>I’m Jennifer Berkowitz.
-                <br><br>I was once a CEO struggling to get out of my own way. Then, with the help of a coach, I reached my
-                Freedom Goal&trade;. Now, I work with CEOs, like you, who have a passion and desire to grow their business,
-                but are struggling to figure out how. My passion is helping CEOs reach their own personal Freedom Goal&trade;,
-                and that is what I'd love to do for you! <br><br>Click below to learn more about my journey, the type of
-                client that is a great fit for coaching, the coaching process and just what exactly a Freedom Goal&trade;
-                is!
+            <div id="jenPicDiv">
+                <img id="jenPic" src="/app/images/JenniferWalzerBerkowitz.JPG" />
+                <h6>Coach Jennifer</h6>
+            </div>
+            <p>
+                <strong>
+                    <em>I don't need your business.</em>
+                </strong>
+                </br>
+                </br>You're probably wondering why I would say something like this! It's because I want to make two things clear
+                from the start. </br>
+                </br>
+                <strong>1) The Gazelles methodology worked for me.</strong> It allowed me to grow and sell my business, and helped
+                me achieve my
+                <strong>Freedom Goal&trade;</strong>. Now I get to choose the most fulfilling ways to spend my time.
+                </br>
+                </br>
+                <strong>2) I became a Gazelles coach not to pay the bills but because helping other CEO's find success is my passion.</strong>
+                </br>
+                <!-- </br>I don't need your business, but if you're a good fit as a client, I want to help you. </br> -->
+                </br>My journey was NOT easy. As a CEO, I was a stressed-out mess before I started working with a fantastic Gazelles
+                coach in 2008. (Take a look at the
+                <em>Four Quick Questions</em> on this page. I was a "no" on most of them before I started the Gazelles program!)
+                <a href="about.html">(Read more)</a>
+                </br>
+                <!-- </br>
+                My coach assessed the problems specific to my business, and then helped me implement tried-and true strategic tools that
+                allowed me and my team to move forward with accountability and total alignment. I was finally able to focus
+                on growth instead of constantly putting out fires. And Backup My Info! (BUMI) grew into a desirable acquisition
+                target for a publicly traded company. </br>
+                </br>Since I've reached my Freedom Goal of selling my company I am able to do whatever I want with my time. I
+                CHOOSE to coach because I believe in this process and because I want to use my experience to make an impact
+                in the lives of others. Because I worked with a Gazelles coach, I can do that on MY OWN TERMS and balance
+                my time between work and family. </br>
+                </br>Maybe that sounds appealing to you. Maybe your Freedom Goal is something entirely different. Either way,
+                if you're too stressed, frazzled and confused right now to even begin to think of how to achieve your goals,
+                CONTACT ME. Let's talk about getting you on the path to success – the path to your own Freedom Goal.
+                <br> -->
+
+
             </p>
 
             <div class="mainDivider"></div>
@@ -308,9 +358,17 @@
 
         </div>
 
-        <div class="sidebarContent">
-            <p class="quote">"Simply said, Jennifer provides clarity." <br></p>
-            <p class="quoteBy">Tim Vogel<br>Founder & CEO<br>Scenthound Holdings, LLC </p>
+        <div class="sidebarContent" id="home">
+            <p class="quote">Four Quick Questions
+                <br>
+            </p>
+            <p id="fourQuestions">Strategy: Can your entire team articulate your strategy? </br>
+                </br>Execution: Is every facet of your organization assigned to a specific person accountable for meeting goals
+                specific to that facet?</br>
+                </br> People: Would you happily rehire everyone on your team today?</br>
+                </br> Cash: Do you have enough cash to fuel the growth of your business? </br>
+                </br>If you answered "no" to any of these questions related to the four key focus areas of the Gazelles methodology,
+                let's talk about how to get you to "yes." </p>
 
             <img class="underQuote" src="/app/images/Divider.svg" />
 
