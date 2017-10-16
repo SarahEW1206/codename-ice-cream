@@ -8,8 +8,8 @@
 }
 
 #fourQuestionsHead {
-    font-family: Maitree;
-    font-size: 18px;
+    font-family: Open Sans;
+    font-size: 22px;
     font-weight: 800;
     margin: 1rem 1rem 2rem -.5rem;
     color: $purple;
@@ -43,10 +43,10 @@
 
 .questionLead {
     font-family: Maitree;
-background-color: $purple;
-color: white;
+    font-weight: 800;
+background-color: $yellow;
+color: $blue;
 padding: 0px 8px;
-
 border-radius: 5px;
 }
 

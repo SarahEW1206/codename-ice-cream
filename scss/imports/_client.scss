@@ -31,11 +31,48 @@
 
     }
 
+
+
     .nav-tabs .nav-item .nav-link.active {
     background-color: $green;
     color: white;
     font-family: Open Sans, sans-serif;
+
+
 }
+
+.clientPageList {
+  list-style: none !important;
+  padding: 0; 
+  margin: 0;
+  text-align: left;
+}
+
+.clientPageItem {
+  padding-left: 3em; 
+  text-indent: -.7em;
+  font-size: 1.1em;
+  margin-top: .8em;
+}
+
+.clientPageItem::before {
+  content: "• ";
+  color: $green;
+}
+
+.listHeader {
+  padding-top: .8rem;
+  display: block;
+  font-size: 1.1em;
+  font-weight: 800;
+  line-height: 1.5em;
+  text-align: left;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: $green;
+}
+
+
 
 .nav-tabs .nav-link {
     font-family: Open Sans, sans-serif;
@@ -64,6 +101,11 @@ h2#clientHeading {
     margin-left: 25px;
     font-family: Maitree, serif;
     color: $green;
+}
+
+.testimonialName {
+  font-weight: 800;
+  color: $green;
 }
 
 

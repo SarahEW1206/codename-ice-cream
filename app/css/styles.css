@@ -8170,8 +8170,8 @@ h6 {
 }
 
 #fourQuestionsHead {
-  font-family: Maitree;
-  font-size: 18px;
+  font-family: Open Sans;
+  font-size: 22px;
   font-weight: 800;
   margin: 1rem 1rem 2rem -.5rem;
   color: #3b1a5e;
@@ -8201,8 +8201,9 @@ h6 {
 
 .questionLead {
   font-family: Maitree;
-  background-color: #3b1a5e;
-  color: white;
+  font-weight: 800;
+  background-color: #fce800;
+  color: #3a7cbf;
   padding: 0px 8px;
   border-radius: 5px;
 }
@@ -8395,6 +8396,37 @@ h2#aboutHeading {
   font-family: Open Sans, sans-serif;
 }
 
+#clientMain .clientPageList {
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+#clientMain .clientPageItem {
+  padding-left: 3em;
+  text-indent: -.7em;
+  font-size: 1.1em;
+  margin-top: .8em;
+}
+
+#clientMain .clientPageItem::before {
+  content: "• ";
+  color: #27b14b;
+}
+
+#clientMain .listHeader {
+  padding-top: .8rem;
+  display: block;
+  font-size: 1.1em;
+  font-weight: 800;
+  line-height: 1.5em;
+  text-align: left;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #27b14b;
+}
+
 #clientMain .nav-tabs .nav-link {
   font-family: Open Sans, sans-serif;
   font-size: 1.2rem;
@@ -8420,6 +8452,11 @@ h2#clientHeading {
   margin-top: 3rem;
   margin-left: 25px;
   font-family: Maitree, serif;
+  color: #27b14b;
+}
+
+.testimonialName {
+  font-weight: 800;
   color: #27b14b;
 }
 
