@@ -18,7 +18,7 @@
     width: calc(100% - 50px);
     display: block;
   margin: 0 auto;
-    font-size: .9em;
+    font-size: 1em;
     text-align: justify;
     margin-bottom: 0;
     font-family: 'Open Sans', sans-serif;
@@ -64,4 +64,27 @@ h2#aboutHeading {
     display: block;
     text-align: justify;
 }
+
+#aboutPageList {
+    list-style: none !important;
+    padding: 0; 
+    margin: 0;
+    text-align: left;
+  }
+  
+  .aboutPageItem {
+    padding-left: 3em; 
+    text-indent: -.7em;
+    font-size: 1em;
+    margin-top: .8em;
+
+    @media (min-width: 600px) {
+        font-size: 1.1em;
+      }
+  }
+  
+  .aboutPageItem::before {
+    content: "• ";
+    color: $orange;
+  }
 
