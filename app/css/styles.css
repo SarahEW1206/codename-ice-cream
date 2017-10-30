@@ -7950,7 +7950,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 600px) {
   #homeMain p {
     font-size: 1.1em;
   }
@@ -7960,7 +7960,7 @@ body {
   width: 25%;
   max-width: 180px;
   margin-left: 35px;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-right: 2rem;
   margin-bottom: 1rem;
   float: left;
@@ -8656,6 +8656,10 @@ p.inputText {
 
 label {
   font-family: 'Open Sans', sans-serif;
+}
+
+#thankyou {
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -5,7 +5,7 @@ if(empty($_POST['name'])  ||
    empty($_POST['email']) || 
    empty($_POST['message']))
 {
-    $errors .= "\n Error: all fields are required";
+    $errors .= "\n Sorry! \n All fields are required.";
 }
 
 $name = $_POST['name']; 
@@ -16,7 +16,7 @@ if (!preg_match(
 "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
 $email_address))
 {
-    $errors .= "\n Error: Invalid email address";
+    $errors .= "\n Please enter a valid email address";
 }
 
 if( empty($errors))
@@ -41,13 +41,57 @@ if( empty($errors))
 <html>
 <head>
 	<title>Contact form handler</title>
+	<link rel="stylesheet" href="/css/styles.css">
+	<style>
+body {
+    background-color: rgba(59,26,94,1)  ;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    color: white;
+    font-size:1.5rem;
+}
+
+button {
+background-color: white);
+color: rgba(0,0,0,.8);
+font-size; 2rem;
+padding: 10px;
+border: none;
+border-radius: 5px;
+margin-top; 2rem;
+}
+
+img {
+display: block;
+width: 80%;
+margin: 1rem auto;
+}
+
+
+</style>
 </head>
 
 <body>
+
+<img src="/images/RJLogo.svg" /> 
 <!-- This page is displayed only if there is some error -->
 <?php
 echo nl2br($errors);
 ?>
+
+<br>
+<br>
+
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+
+
 
 
 </body>
