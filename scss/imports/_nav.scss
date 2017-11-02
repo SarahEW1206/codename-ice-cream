@@ -1,5 +1,5 @@
 #logo {
-    width: 260px;
+    width: 240px;
     float: left;
     margin: .8rem 0 .8rem 2rem;
 
@@ -28,7 +28,7 @@ nav {
     float: right;
     height: 63px;
 
-    @media(max-width: 799px) {
+    @media(max-width: 899px) {
         display: none;
     }
 
@@ -68,7 +68,7 @@ nav {
     margin-right: 1.5rem;
     float: right;
 
-    @media(min-width: 800px) {
+    @media(min-width: 900px) {
         display: none;
     }
 }
@@ -110,7 +110,7 @@ nav {
 
 //makes dropdown go away when you expand the window
 #exCollapsingNavbar.collapse.in {
-    @media(min-width: 800px) {
+    @media(min-width: 900px) {
         display: none;
     }
 }

@@ -60,17 +60,7 @@
   color: $green;
 }
 
-.listHeader {
-  padding-top: .8rem;
-  display: block;
-  font-size: 1.1em;
-  font-weight: 800;
-  line-height: 1.5em;
-  text-align: left;
-  margin-bottom: 0;
-  font-family: 'Open Sans', sans-serif;
-  color: $green;
-}
+
 
 
 
@@ -103,10 +93,19 @@ h2#clientHeading {
     color: $green;
 }
 
-.testimonialName {
+
+.listHeader {
+  padding-top: .8rem;
+  display: block;
+  font-size: 1.1em;
   font-weight: 800;
+  line-height: 1.5em;
+  text-align: left;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
   color: $green;
 }
+
 
 
 
