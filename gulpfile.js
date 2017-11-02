@@ -8,8 +8,8 @@ var sassOptions = {
 };
 
 var sassSources = './scss/**/*.scss';
-var sassOutput = './app/css';
-var htmlSource = 'app/**/*.html';
+var sassOutput = './css';
+var htmlSource = '**/*.html';
 
 
 gulp.task('sass', function () {

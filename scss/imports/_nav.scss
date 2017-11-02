@@ -1,11 +1,11 @@
 #logo {
-    width: 240px;
+    width: 200px;
     float: left;
     margin: .8rem 0 .8rem 2rem;
 
-    // @media(min-width: 800px) {
-    //     width: 200px;
-    // }
+    @media(min-width: 800px) {
+        width: 250px;
+    }
 }
 
 nav {

@@ -7766,9 +7766,15 @@ button.close {
 }
 
 #logo {
-  width: 240px;
+  width: 200px;
   float: left;
   margin: .8rem 0 .8rem 2rem;
+}
+
+@media (min-width: 800px) {
+  #logo {
+    width: 250px;
+  }
 }
 
 nav {
@@ -8387,6 +8393,10 @@ h2#aboutHeading {
 .testimonialName {
   font-weight: 800;
   color: #f36c24;
+}
+
+h6 {
+  text-align: left;
 }
 
 #clientMain {
