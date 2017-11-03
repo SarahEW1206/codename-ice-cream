@@ -7,7 +7,7 @@ html {
 
 body {
   height: 100%;
-  padding: 0;
+  padding: 0 0 20px 0;
   overflow: auto;
   margin: 0;
   -webkit-overflow-scrolling: touch;
@@ -21,7 +21,7 @@ body {
   position: fixed;
   bottom: 0;
   color: white;
-  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-top: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 #footer p {
@@ -7917,7 +7917,7 @@ body {
 .headerImg {
   width: 100%;
   margin-top: 4em;
-  border-bottom: 2px solid #3b1a5e;
+  border-bottom: 1px solid #3b1a5e;
 }
 
 .wrapper {
@@ -7951,12 +7951,13 @@ body {
   margin: 0 auto;
   font-size: 1em;
   line-height: 1.5em;
-  text-align: justify;
+  text-align: left;
   margin-bottom: 0;
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   #homeMain p {
     font-size: 1.1em;
   }
@@ -7965,8 +7966,6 @@ body {
 #jenPicDiv {
   width: 25%;
   max-width: 180px;
-  margin-left: 35px;
-  margin-top: 1rem;
   margin-right: 2rem;
   margin-bottom: 1rem;
   float: left;
@@ -7975,12 +7974,12 @@ body {
 #jenPic {
   width: 100%;
   border: none;
-  border-radius: 3px;
 }
 
 h6 {
   font-weight: 800;
   margin-bottom: 0;
+  margin-left: 5px;
 }
 
 .mainDivider {
@@ -8224,12 +8223,6 @@ h6 {
   box-shadow: -5px 0px 10px grey;
 }
 
-.sidebarContent h4 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  margin: 3rem 3rem 2rem 3rem;
-}
-
 @media (min-width: 600px) {
   .sidebarContent {
     float: right;
@@ -8256,12 +8249,6 @@ h6 {
   box-shadow: 0px 0px 0px grey;
 }
 
-#home.sidebarContent h4 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  margin: 3rem 3rem 2rem 3rem;
-}
-
 @media (min-width: 600px) {
   #home.sidebarContent {
     float: right;
@@ -8279,26 +8266,52 @@ h6 {
 }
 
 .underQuote {
-  display: block;
+  display: none;
   margin: 0 auto;
-  width: 40%;
+  width: 100%;
+}
+
+.signUp {
+  background-color: #3b1a5e;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #contact {
-  margin-left: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5rem;
-  width: 80px;
-  background-color: #555555;
+  background-color: #3a7cbf;
   color: white;
   border: none;
   font-family: 'Maitree', serif;
-  padding: 8px;
-  border-radius: 5px;
-  border: 1px solid gray;
+  font-size: 18px;
+  letter-spacing: 3px;
+  padding: 12px;
+  width: 70%;
+  border-radius: 0px;
+  box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.8);
 }
 
 #contact:hover {
-  transform: translateY(2px);
+  transform: translateY(-4px);
+  box-shadow: 15px 15px 1px rgba(0, 0, 0, 0.8);
+}
+
+h4 {
+  font-family: 'open sans', sans-serif;
+  font-weight: 100;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
 }
 
 #aboutMain {
