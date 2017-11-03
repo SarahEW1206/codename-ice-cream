@@ -13,8 +13,8 @@
 
   p {
     padding-top: .8rem;
-    // padding-left: 2rem;
-    // padding-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     width: calc(100% - 50px);
     display: block;
   margin: 0 auto;
@@ -43,7 +43,8 @@
 
 .clientPageList {
   list-style: none !important;
-  padding: 0; 
+  padding-left: 3rem;
+  padding-right: 3rem;
   margin: 0;
   text-align: left;
 }
@@ -87,8 +88,8 @@ ul.nav.nav-tabs {
 
 
 h2#clientHeading {
-    margin-top: 3rem;
-    margin-left: 25px;
+    margin-top: 5rem;
+    padding-left: 50px;
     font-family: Maitree, serif;
     color: $green;
 }
