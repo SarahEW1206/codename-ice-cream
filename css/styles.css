@@ -7929,10 +7929,6 @@ body {
   }
 }
 
-p.homepageHeaders {
-  margin-top: 2rem;
-}
-
 #homeMain {
   float: left;
   background-color: white;
@@ -7965,6 +7961,12 @@ p.homepageHeaders {
   #homeMain p {
     font-size: 1.1em;
   }
+}
+
+.homepageHeaders {
+  margin-top: 3rem;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 #jenPicDiv {
