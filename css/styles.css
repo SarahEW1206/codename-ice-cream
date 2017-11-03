@@ -7917,7 +7917,6 @@ body {
 .headerImg {
   width: 100%;
   margin-top: 4em;
-  border-bottom: 1px solid #3b1a5e;
 }
 
 .wrapper {
@@ -7928,6 +7927,10 @@ body {
   .wrapper {
     display: flex;
   }
+}
+
+p.homepageHeaders {
+  margin-top: 2rem;
 }
 
 #homeMain {
@@ -7945,7 +7948,8 @@ body {
 }
 
 #homeMain p {
-  padding-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
   width: calc(100% - 70px);
   display: block;
   margin: 0 auto;
@@ -7966,20 +7970,25 @@ body {
 #jenPicDiv {
   width: 25%;
   max-width: 180px;
+  margin-left: 35px;
+  margin-top: 3rem;
   margin-right: 2rem;
   margin-bottom: 1rem;
   float: left;
+  background-color: lightgrey;
 }
 
 #jenPic {
   width: 100%;
+  max-width: 180px;
   border: none;
 }
 
 h6 {
   font-weight: 800;
-  margin-bottom: 0;
-  margin-left: 5px;
+  font-size: 1.5rem;
+  color: dark gray;
+  padding: 5px;
 }
 
 .mainDivider {
@@ -8005,17 +8014,6 @@ h6 {
   margin-top: 1rem;
   margin-bottom: 0;
   transition: all 0.2s ease;
-}
-
-@media (min-width: 900px) {
-  #buttonJourney {
-    width: 48%;
-    float: left;
-    margin-top: 1rem;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: .5rem;
-  }
 }
 
 #buttonJourney .cls-1 {
@@ -8049,17 +8047,6 @@ h6 {
   transition: all 0.2s ease;
 }
 
-@media (min-width: 900px) {
-  #buttonClient {
-    width: 48%;
-    float: right;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 0;
-    margin-bottom: .5rem;
-  }
-}
-
 #buttonClient .cls-1 {
   fill: #3b1a5e;
 }
@@ -8091,18 +8078,6 @@ h6 {
   transition: all 0.2s ease;
 }
 
-@media (min-width: 900px) {
-  #buttonGoal {
-    width: 48%;
-    clear: both;
-    float: left;
-    margin-top: 1rem;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 3rem;
-  }
-}
-
 #buttonGoal .cls-1 {
   fill: #3b1a5e;
 }
@@ -8132,17 +8107,6 @@ h6 {
   margin-top: .75rem;
   margin-bottom: 0;
   transition: all 0.2s ease;
-}
-
-@media (min-width: 900px) {
-  #buttonProcess {
-    width: 48%;
-    float: right;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 0;
-    margin-bottom: 5rem;
-  }
 }
 
 #buttonProcess .cls-1 {
