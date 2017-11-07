@@ -2,8 +2,18 @@
   width: calc(100% - 50px);
   display: block;
   margin: 4rem auto;
+
+  p {
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+  }
   
 }
+
+
 
 input {
 	border-radius: 5px;

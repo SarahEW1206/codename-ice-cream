@@ -11,6 +11,11 @@
     width: 70%;
     }
 
+    @media (min-width: 1200px) {
+      height: 100%;
+      width: 80%;
+      }
+
   p {
     padding-top: 0;
     // padding-left: 2rem;
@@ -18,10 +23,11 @@
     width: calc(100% - 50px);
     display: block;
   margin: 0 auto;
-    font-size: 1em;
-    text-align: justify;
-    margin-bottom: 0;
-    font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
+  text-align: left;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
 
 
     @media (min-width: 600px) {
@@ -54,7 +60,24 @@
 }
 
 ul.nav.nav-tabs {
-    margin-left: 25px;
+    margin-left: 25px;   
+
+}
+
+.tabListItem {
+  font-size: 1.0em;
+  line-height: 1.5em;
+  text-align: left;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+
+  @media (min-width: 600px ) {
+    font-size: 1.1em;
+  }
+
+  width: calc(100% - 50px);
+margin: 0 auto;
 }
 
 

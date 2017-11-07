@@ -11,18 +11,23 @@
     width: 70%;
     }
 
+    @media (min-width: 1200px) {
+      height: 100%;
+      width: 80%;
+      }
+
   p {
     padding-top: .8rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    // padding-left: 3rem;
+    // padding-right: 3rem;
     width: calc(100% - 50px);
     display: block;
   margin: 0 auto;
-    font-size: 1em;
-    line-height: 1.5em;
-    text-align: justify;
-    margin-bottom: 0;
-    font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
 
 
     @media (min-width: 600px) {
@@ -52,8 +57,17 @@
 .clientPageItem {
   padding-left: 3em; 
   text-indent: -.7em;
-  font-size: 1.1em;
   margin-top: .8em;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+
+  @media (min-width: 600px) {
+    font-size: 1.1em;
+    
+  }
 }
 
 .clientPageItem::before {
@@ -89,7 +103,7 @@ ul.nav.nav-tabs {
 
 h2#clientHeading {
     margin-top: 5rem;
-    padding-left: 50px;
+    padding-left: 25px;
     font-family: Maitree, serif;
     color: $green;
 }

@@ -21,6 +21,12 @@
     width: 60%;
     }
 
+    @media (min-width: 1200px) {
+      display: table-cell;
+      height: 100%;
+      width: 80%;
+      }
+
   p {
     padding-top: 1rem;
     padding-bottom: 0;
@@ -102,6 +108,8 @@ h6 {
   margin-bottom: 0;
   transition: all 0.2s ease;
 
+
+
   // @media (min-width: 900px ) {
   //   width: 48%;
   //   float: left;
@@ -142,6 +150,7 @@ h6 {
   margin-top: .75rem;
   margin-bottom: 0;
   transition: all 0.2s ease;
+
 
   // @media (min-width: 900px ) {
   //   width: 48%;
@@ -184,6 +193,7 @@ h6 {
   margin-top: .75rem;
   margin-bottom: 0;
   transition: all 0.2s ease;
+  
 
   // @media (min-width: 900px ) {
   //   width: 48%;
