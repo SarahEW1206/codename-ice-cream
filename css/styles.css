@@ -8598,6 +8598,20 @@ h2#processHeading {
   width: 100%;
 }
 
+@media (min-width: 600px) {
+  #goalMain {
+    height: 100%;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #goalMain {
+    height: 100%;
+    width: 80%;
+  }
+}
+
 #goalMain p {
   padding-top: 1rem;
   width: calc(100% - 50px);
