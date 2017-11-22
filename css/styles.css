@@ -12,6 +12,8 @@ body {
   margin: 0;
   -webkit-overflow-scrolling: touch;
   font-family: Open Sans, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #footer {
@@ -7818,7 +7820,7 @@ nav {
 
 .navDivider:hover .navText {
   color: #3b1a5e;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .navText {
@@ -7827,7 +7829,7 @@ nav {
   margin-top: 2.25rem;
   text-decoration: none;
   font-family: Montserrat;
-  font-weight: 200;
+  font-weight: 500;
   width: 100%;
 }
 
@@ -7871,7 +7873,7 @@ nav {
 .collapsing .text-muted {
   color: white !important;
   letter-spacing: .8px;
-  font-weight: 200;
+  font-weight: 500;
 }
 
 .collapse .text-muted:hover,
@@ -7910,7 +7912,7 @@ body {
 
 .navDivider.selected .navText {
   color: #3b1a5e;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .headerImg {
