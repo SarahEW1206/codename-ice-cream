@@ -8229,7 +8229,7 @@ h6 {
   color: white;
 }
 
-#contact {
+.contact {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -8246,7 +8246,7 @@ h6 {
   box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.8);
 }
 
-#contact:hover {
+.contact:hover {
   transform: translateY(-4px);
   box-shadow: 15px 15px 1px rgba(0, 0, 0, 0.8);
 }
@@ -8266,13 +8266,13 @@ h4 {
   letter-spacing: 2px;
 }
 
-#social-icons {
+.social-icons {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
 }
 
-#social-icons img {
+.social-icons img {
   margin: 0 1rem;
 }
 
