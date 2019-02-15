@@ -1,151 +1,131 @@
 .quote {
-    font-family: Maitree;
-    font-size: 18px;
-    font-weight: 700;
-    margin: 4rem 3rem 3rem 3rem;
-    // text-align: justify;
-    color:rgba(0,0,0,.6);
+  font-family: Maitree;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 4rem 3rem 3rem 3rem;
+  // text-align: justify;
+  color: rgba(0, 0, 0, 0.6);
 }
-
 
 .quoteBy {
-    font-family: Maitree;
-    font-size: 14px;
-    margin: 3rem;
-    // text-align: justify;
-    color:rgba(0,0,0,.6);
-
+  font-family: Maitree;
+  font-size: 14px;
+  margin: 3rem;
+  // text-align: justify;
+  color: rgba(0, 0, 0, 0.6);
 }
 
-
 .sidebarContent {
-margin-top: 1rem;
+  margin-top: 1rem;
   margin-left: 0px;
   float: left;
   background-color: #ffffff;
-background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23a0a0a5' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23a0a0a5' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
   width: 100%;
   border-left: solid 1px lightgrey;
-//   box-shadow: -5px 0px 10px grey;
 
-//   h4 {
-//       font-family: 'Open Sans', sans-serif;
-//       font-weight: 700;
-//       margin: 3rem 3rem 2rem 3rem;
-//   }
-
-@media (min-width: 600px) {
+  @media (min-width: 600px) {
     float: right;
     margin-top: 0px;
     // height: 100vh;
     width: 40%;
-    }
+  }
 
-    @media (min-width: 1200px) {
+  @media (min-width: 1200px) {
     margin-top: 0px;
     float: right;
     // height: 100vh;
     width: 20%;
-    }
-
+  }
 }
 
 #home.sidebarContent {
-    margin-top: 1rem;
-      margin-left: 0px;
-      float: left;
-      background-color: $blue;
-      background-image: none;
-      width: 100%;
-      box-shadow: 0px 0px 0px grey;
+  margin-top: 1rem;
+  margin-left: 0px;
+  float: left;
+  background-color: $blue;
+  background-image: none;
+  width: 100%;
+  box-shadow: 0px 0px 0px grey;
 
-    
-    @media (min-width: 600px) {
-        float: right;
-        margin-top: 0px;
-        // height: 100vh;
-        width: 40%;
-        }
-    
-        @media (min-width: 700px) {
-        margin-top: 0px;
-        float: right;
-        // height: 100vh;
-        width: 40%;
-        }
-    
-    }
+  @media (min-width: 600px) {
+    float: right;
+    margin-top: 0px;
+    // height: 100vh;
+    width: 40%;
+  }
+
+  @media (min-width: 700px) {
+    margin-top: 0px;
+    float: right;
+    // height: 100vh;
+    width: 40%;
+  }
+}
 
 .underQuote {
-    display: none;
-    margin: 0 auto;
-    width: 100%;
+  display: none;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .signUp {
-    background-color: rgba(59,26,94,1);
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-color: rgba(59, 26, 94, 1);
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-    h4 {
-        font-size: 1.6em;
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        letter-spacing: 3px;
-        color: white;
-    }
+  h4 {
+    font-size: 1.4em;
+    text-align: center;
+    font-family: Montserrat, "Open Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: 1px;
+    color: white;
+  }
 }
 
-.contact{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3rem;
-    // border-radius: 3px;
-    // padding: 6px 10px;
-    // font-family: Open Sans, sans-serif;
-    // color: $blue;
-    // width: 80px;
-	background-color: $blue;
-    color: white;
-	border: none;
-    font-family: 'Maitree', serif;
-    font-size: 18px;
-    letter-spacing: 2px;
-    padding: 12px;
-    width: 70%;
-    border-radius: 0px;
-    box-shadow: 10px 10px 1px rgba(0,0,0,.8);
-	// border: 1px solid gray;
+.contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  background-color: $blue;
+  color: white;
+  border: none;
+  font-family: "Maitree", serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 12px;
+  width: 70%;
+  border-radius: 0px;
+  box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.8);
+  // border: 1px solid gray;
 }
 .contact:hover {
-    transform: translateY(-4px);
-    box-shadow: 15px 15px 1px rgba(0,0,0,.8);
+  transform: translateY(-4px);
+  box-shadow: 15px 15px 1px rgba(0, 0, 0, 0.8);
 }
 
 h4 {
-    font-family: 'open sans', sans-serif;
-    font-weight: 100;
-    display: block;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    text-align: center;
-    color: white;
-    letter-spacing: 2px;
-    
-    
+  font-family: "open sans", sans-serif;
+  font-weight: 100;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
 }
 
 .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .social-icons img {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
