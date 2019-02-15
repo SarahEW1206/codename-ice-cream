@@ -6583,11 +6583,6 @@ label {
       #eventsMain p {
         font-size: 1.1em; } }
 
-section {
-  width: 95%;
-  max-width: 700px;
-  margin: 60px auto; }
-
 table {
   width: 100%;
   border: 3px solid gray;
