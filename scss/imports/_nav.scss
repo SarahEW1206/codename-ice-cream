@@ -1,151 +1,140 @@
 #logo {
-    width: 200px;
-    float: left;
-    margin: .8rem 0 .8rem 2rem;
+  width: 200px;
+  float: left;
+  margin: 0.8rem 0 0.8rem 2rem;
+  transition: all 0.3s ease-in-out;
 
-    @media(min-width: 800px) {
-        width: 250px;
-    }
+  @media (min-width: 1000px) {
+    width: 250px;
+  }
 }
 
 nav {
-    background-color: $purple !important; 
-    box-shadow: 0px 2px 5px black;
+  background-color: $purple !important;
+  box-shadow: 0px 2px 5px black;
 }
 
 .navItem {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar-fixed-top {
- padding: 0px;
- margin: 0px;
- border: none;
-
+  padding: 0px;
+  margin: 0px;
+  border: none;
 }
 
 #visibleNav {
-    float: right;
-    height: 63px;
+  float: right;
+  height: 63px;
 
-    @media(max-width: 899px) {
-        display: none;
-    }
-
-} 
+  @media (max-width: 999px) {
+    display: none;
+  }
+}
 
 .navDivider {
-    box-sizing: border-box;
-    display: inline-block;
-    width: 122px;
-    margin-left: -5px;
-    // border-left: 1px solid rgba(255,255,255,.6);
-    height: 100%;
-    color: white;  
+  box-sizing: border-box;
+  display: inline-block;
+  width: 122px;
+  margin-left: -5px;
+  // border-left: 1px solid rgba(255,255,255,.6);
+  height: 100%;
+  color: white;
 }
 
 .navDivider:hover {
-    background-color: rgba(255,255,255,.6);
-    .navText {
-        color: $purple;
-        font-weight: 500;
-    }
-        }
-
+  background-color: rgba(255, 255, 255, 0.6);
+  .navText {
+    color: $purple;
+    font-weight: 500;
+  }
+}
 
 .navText {
-        color: white;
-        text-align: center;
-        margin-top: 2.25rem;
-        text-decoration: none;
-        font-family: Montserrat;
-        font-weight: 500;
-        width: 100%;
-    }
+  color: white;
+  text-align: center;
+  margin-top: 2.25rem;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 500;
+  width: 100%;
+}
 
 .navbar-toggler {
-    margin-top: 2rem;
-    margin-right: 1.5rem;
-    float: right;
+  margin-top: 2rem;
+  margin-right: 1.5rem;
+  float: right;
 
-    @media(min-width: 900px) {
-        display: none;
-    }
+  @media (min-width: 1000px) {
+    display: none;
+  }
 }
 
 //container div for hamburger dropdown (contains the div below)
 .collapse,
 .collapsing {
+  margin-top: 1rem;
+  clear: right;
+
+  ul {
     margin-top: 1rem;
-    clear: right;
-    
+    padding-left: 0;
+    text-align: right;
+    list-style: none;
 
-    ul {
-        margin-top: 1rem;
-        padding-left: 0;
-        text-align: right;
-        list-style: none;  
-
-        a {
-        text-decoration: none;
-        }
-
-        a:hover {
-        color: #333 !important;
-        } 
+    a {
+      text-decoration: none;
     }
 
-    
-
-    .text-muted {
-        color: white !important;
-        letter-spacing: .8px;
-        font-weight: 500;
+    a:hover {
+      color: #333 !important;
     }
+  }
 
-    .text-muted:hover {
-        color: dimgray !important;
-    }
+  .text-muted {
+    color: white !important;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+  }
+
+  .text-muted:hover {
+    color: dimgray !important;
+  }
 }
 
 //makes dropdown go away when you expand the window
 #exCollapsingNavbar.collapse.in {
-    @media(min-width: 900px) {
-        display: none;
-    }
+  @media (min-width: 900px) {
+    display: none;
+  }
 }
 
 //div with ul (menu links) inside of it
-.bg-inverse.text-muted.p-1 { 
-    width: 100%;
-    // margin-top: 1rem;
-    padding-top: 1rem !important;
-    padding-right: 1rem !important;
+.bg-inverse.text-muted.p-1 {
+  width: 100%;
+  // margin-top: 1rem;
+  padding-top: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 h1 {
-    margin-top: 100px;
-    margin-left: 2rem;
+  margin-top: 100px;
+  margin-left: 2rem;
 }
 
 .bg-inverse {
-background: transparent !important;
+  background: transparent !important;
 }
 
-
-
 body {
-    background-color: white;
+  background-color: white;
 }
 
 .navDivider.selected {
-    background-color: rgba(255,255,255,.6);
-    .navText {
-        color: $purple;
-        font-weight: 500;
-    }
-        
+  background-color: rgba(255, 255, 255, 0.6);
+  .navText {
+    color: $purple;
+    font-weight: 500;
+  }
 }
-
-
-

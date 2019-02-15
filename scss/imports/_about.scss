@@ -1,7 +1,5 @@
-
-
 #aboutMain {
-//   margin-top: -5px;
+  //   margin-top: -5px;
   float: left;
   background-color: white;
   width: 100%;
@@ -9,95 +7,91 @@
   @media (min-width: 600px) {
     height: 100%;
     width: 70%;
-    }
+  }
 
-    @media (min-width: 1200px) {
-      height: 100%;
-      width: 80%;
-      }
+  @media (min-width: 1200px) {
+    height: 100%;
+    width: 80%;
+  }
 
   p {
     padding-top: 1rem;
     // padding-left: 2rem;
     // padding-right: 2rem;
-    width: calc(100% - 50px);
+    width: 100%;
     display: block;
-  margin: 0 auto;
-  font-size: 1em;
-  line-height: 1.5em;
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 1px;
-
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
 
     @media (min-width: 600px) {
       font-size: 1.1em;
     }
-
-    }
-
+  }
 }
 
 ul.nav.nav-tabs {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
-
 h2#aboutHeading {
-    margin-top: 3rem;
-    margin-left: 25px;
-    font-family: Maitree, serif;
-    color: $orange;
+  margin-top: 3rem;
+  margin-left: 25px;
+  font-family: Maitree, serif;
+  color: $orange;
 }
 
 .nav-tabs .nav-item .nav-link.active {
-    background-color: $orange;
-    color: white;
-    font-family: Open Sans, sans-serif;
+  background-color: $orange;
+  color: white;
+  font-family: Open Sans, sans-serif;
 }
 
 .nav-tabs .nav-link {
-    font-family: Open Sans, sans-serif;
-    font-size: 1.2rem;
+  font-family: Open Sans, sans-serif;
+  font-size: 1.2rem;
 
-    @media (min-width: 600px) {
-      font-size: 1.5rem;
-    }
+  @media (min-width: 600px) {
+    font-size: 1.5rem;
+  }
 }
 
 .tab-content > .active {
-    margin: 3rem 3rem 6rem 3rem;
-    display: block;
-    text-align: justify;
+  margin: 3rem 3rem 6rem 3rem;
+  display: block;
+  text-align: justify;
 }
 
 #aboutPageList {
-    list-style: none !important;
-    padding: 0; 
-    margin: 0;
-    text-align: left;
-  }
-  
-  .aboutPageItem {
-    padding-left: 3em; 
-    text-indent: -.7em;
-    font-size: 1em;
-    margin-top: .8em;
+  list-style: none !important;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
 
-    @media (min-width: 600px) {
-        font-size: 1.1em;
-      }
-  }
-  
-  .aboutPageItem::before {
-    content: "• ";
-    color: $orange;
-  }
+.aboutPageItem {
+  padding-left: 3em;
+  text-indent: -0.7em;
+  font-size: 1em;
+  margin-top: 0.8em;
 
-  .testimonialName {
-    font-weight: 800;
-    color: $orange;
+  @media (min-width: 600px) {
+    font-size: 1.1em;
   }
+}
+
+.aboutPageItem::before {
+  content: "• ";
+  color: $orange;
+}
+
+.testimonialName {
+  font-weight: 800;
+  color: $orange;
+}
 
 h6 {
   text-align: left;
@@ -109,8 +103,5 @@ h6 {
   margin: 1em 1em 0em 1.9em;
 
   @media (min-width: 500px) {
-
   }
-
 }
-
